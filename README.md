@@ -1,2 +1,2 @@
 # BetterNSFWBypass
- Plugin that bypasses age verification for NSFW channels.
+ Discord plugin that bypasses age verification for NSFW channels.
