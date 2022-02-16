@@ -75,12 +75,12 @@ module.exports = (() => {
 	} : (([Plugin, Api]) => {
 		const plugin = (Plugin, Library) => {
 
-        const {Logger, Patcher, Settings} = Library;
+		const {Logger, Patcher, Settings} = Library;
 
-        return class BetterNSFWBypass extends Plugin {
-            constructor() {
-                super();
-            }
+		return class BetterNSFWBypass extends Plugin {
+			constructor() {
+				super();
+			}
 		
 			bypass() {
 				const v = BdApi.findModuleByProps("getCurrentUser").getCurrentUser();
@@ -92,11 +92,11 @@ module.exports = (() => {
 				this.bypass();
 			}
 
-            onSwitch() {
+			onSwitch() {
 				this.bypass();
-            }
-        };
-    };
+			}
+		};
+	};
 		return plugin(Plugin, Api);
 	})(global.ZeresPluginLibrary.buildPlugin(config));
 })();
