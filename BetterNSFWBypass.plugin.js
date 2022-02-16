@@ -38,6 +38,7 @@ module.exports = (() => {
 			"version":"0.0.1",
 			"description":"BetterDiscord plugin that bypasses age verification for NSFW channels.",
 			"github":"https://github.com/Eld3rly/BetterNSFWBypass",
+			"github_raw":"https://raw.githubusercontent.com/Eld3rly/BetterNSFWBypass/main/BetterNSFWBypass.plugin.js"
 		},
 		"changelog":[ ///Fixes:"fixed", Improvements:"improved", Added:"new", On-going:"progress"
 			{
